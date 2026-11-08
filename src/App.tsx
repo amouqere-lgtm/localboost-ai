@@ -3,7 +3,6 @@ import React, { useState } from "react";
 export default function App() {
   const [activeTab, setActiveTab] = useState("landing");
   const [businessName, setBusinessName] = useState("");
-  const [businessType, setBusinessType] = useState("immo");
   const [isGenerating, setIsGenerating] = useState(false);
   const [generatedOutput, setGeneratedOutput] = useState<any>(null);
 
